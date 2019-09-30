@@ -3,6 +3,20 @@
     border-style: solid black 2px;
 }
 
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  /*fixed navigation bar*/
+  position: sticky;
+  top: 0;
+  width: 960px;
+  background-color: #1a1717;
+  border-radius: 4px; /* Rounded borders */
+  z-index: 99999;
+}
+
 body {
     background-image: url("../Images/nature.jpg"); 
     background-color: black;
@@ -30,7 +44,6 @@ body {
   background: rgba(0, 0, 0, 0.8);
   color: rgb(163, 163, 163);
   border:solid 1px black;
-  opacity: .7;
   border-radius: 4px; /* Rounded borders */
 }
 
@@ -38,6 +51,7 @@ body {
     .navbar {
       float: none;
       width: 100%;
+      height: 100%;
     }
   }
 
