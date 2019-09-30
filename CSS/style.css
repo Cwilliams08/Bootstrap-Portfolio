@@ -1,0 +1,42 @@
+.contact {
+    border-radius: 5px;
+    border-style: solid black 2px;
+}
+
+body {
+    background-image: url("../Images/nature.jpg"); 
+    background-color: black;
+    /* max height */
+    height: 100%;
+    /* center and responsive */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 960px;
+    margin: auto;
+}
+
+.IndexPhoto {
+  height: 200px;
+  width: 150px;
+  /*oval image instead of sharp edges*/
+  border-radius: 50%;
+  float: left;
+  padding: 20px;
+}
+
+.details {
+  margin: auto;
+  background: rgba(0, 0, 0, 0.8);
+  color: rgb(163, 163, 163);
+  border:solid 1px black;
+  opacity: .7;
+  border-radius: 4px; /* Rounded borders */
+}
+
+@media screen and (max-width: 600px) {
+    .navbar {
+      float: none;
+      width: 100%;
+    }
+  }
